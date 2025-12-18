@@ -11,8 +11,8 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <h1>{count}</h1>
-        <button onClick={()=>disptach(increment())}>increment</button>
-        <button onClick={()=>disptach(decrement())}>decrement</button>
+        <button onClick={()=>disptach(increment())}>Increment</button>
+        <button onClick={()=>disptach(decrement())}>Decrement</button>
     </div>
   )
 }
